@@ -19,6 +19,7 @@
     "11ty",
     "plugin",
     "contributors",
+    "gitlog",
     "git"
   ],
   "author": "drffej",
