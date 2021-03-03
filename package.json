@@ -1,0 +1,36 @@
+{
+  "name": "eleventy-plugin-gitlog",
+  "version": "1.0.1",
+  "description": "An eleventy plugin to list git change history for a page",
+  "main": "index.js",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "gitlog": "^4.0.4"
+  },
+  "devDependencies": {
+    "gitlog": "^4.0.4"
+  },
+  "scripts": {
+    "clean": "rm -rf _site",
+    "test": " npx @11ty/eleventy --input=example.md --output=_site"
+  },
+  "keywords": [
+    "eleventy",
+    "11ty",
+    "plugin",
+    "contributors",
+    "git"
+  ],
+  "author": "drffej",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drffej/eleventy-plugin-gitlog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drffej/eleventy-plugin-gitlog/issues"
+  },
+  "files": [
+    "**/*"
+  ]
+}
